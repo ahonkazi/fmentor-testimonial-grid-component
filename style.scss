@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+
+html {
+    font-size: 13px;
+}
+
+
+:root {
+    //Colors
+    // Primary
+    --Moderateviolet: hsl(263, 55%, 52%);
+    --Verydarkgrayishblue: hsl(217, 19%, 35%);
+    --Verydarkblackishblue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    // Neutral
+    --Lightgray: hsl(0, 0%, 81%);
+    --Lightgrayishblue: hsl(210, 46%, 95%);
+}
+
+
+
+// .grid__item{
+//     height: 500px;
+// }
+.bg-quote{
+    background-image: url('./images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position:  top right;
+}
+
+.cardbox-1 {
+    background-color: var(--Moderateviolet);
+    color: var(--Lightgrayishblue);
+
+}
+
+.cardbox-2 {
+    background-color: var(--Verydarkgrayishblue);
+    color: var(--Lightgrayishblue);
+
+}
+
+.cardbox-3 {
+    background-color: var(--Lightgrayishblue);
+    color: var(--Verydarkblackishblue);
+}
+
+.cardbox-4 {
+    background-color: var(--Lightgrayishblue);
+    color: var(--Verydarkblackishblue);
+
+}
+
+.cardbox-5 {
+    background-color: var(--Verydarkblackishblue);
+    color: var(--Lightgrayishblue);
+
+}
+
+.border-img {
+    border-color: hsl(263, 59%, 61%)
+}
+
+
+
+.header__status {
+    opacity: 50%;
+
+}
+
+.about-text {
+    opacity: 70%;
+}
